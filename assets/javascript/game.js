@@ -27,8 +27,6 @@
     var objNumber = Math.floor(Math.random() * 40) + 1;
     $(".detail-interface").prepend('<p class="obj-number">Current Objective: ' + objNumber + '</p>');  
 
-
-
     //MyScore Number
     var yourScore = 0;
 
