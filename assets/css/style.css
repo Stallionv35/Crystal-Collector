@@ -1,11 +1,24 @@
 /*
-*! Crystal Collector Title
+*! (Crystal Collector Title)
 */
+
 .titlediv {
     text-align: center;
-    border: 3px solid black;
-    
+    border: 3px solid white;
+
 }
 .gametitle {
+    color: whitesmoke;
     font-family: 'Caveat Brush', cursive;
 }
+/*
+*! (Body)
+*/
+
+body {
+    background-image: url("../images/background.png");
+}
+/*
+*! (Instruction Message's)
+*/
+
