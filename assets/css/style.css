@@ -46,6 +46,10 @@ body {
     font-size: 20px;
 }
 
+.obj-Number {
+    display: inline-block;
+}
+ 
 /*
 *! (Crystal Selector)
 */
