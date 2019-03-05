@@ -2,12 +2,12 @@
 *! (Crystal Collector Title)
 */
 
-.titlediv {
+.title-div {
     text-align: center;
     border: 3px solid white;
 
 }
-.gametitle {
+.game-title {
     color: whitesmoke;
     font-family: 'Caveat Brush', cursive;
 }
@@ -22,3 +22,13 @@ body {
 *! (Instruction Message's)
 */
 
+.instruction-div {
+    text-align: center;
+    border: 3px solid white;
+    margin-top: 5px;
+}
+
+.i1 {
+    color: whitesmoke;
+    font-family: 'Caveat Brush', cursive;
+}
