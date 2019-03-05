@@ -17,11 +17,12 @@
         },
         sapphire:
         {
-          name: "yellow",
+          name: "sapphire",
           value: 0
         }
     
       };
+
 
     //Current Objective Number
     var objNumber = Math.floor(Math.random() * 40) + 1;
@@ -58,16 +59,21 @@
     });
 
     // Respond to clicks on the crystals
-    var crystalPoints = function(clickedCrystal) {
+    var crystalPoints = function(clickedCrystal){
         yourScore += clickedCrystal.value;
-        $(".user-score").text("Current Score " + yourScore);   
-    };
+        $(".user-score").text("Current Score: " + yourScore);
+        userWin();   
+    }
 
-    // Loss & Win count
-    var scoreCount = function(){
-        if (objNumb === yourScore){
-        wins++;
-        $(".wins").text(wins);
-        }
+    // Userwin checks current score and adjusts wins & losses
+    var userWin = function() {
+        if (yourScore > objNumber) {
+            losses++;
+            $(".Losses").text("Losses: " + losses);
+            
+          } else if (yourScore === objNumber) {
+
+            wins++;
+            $(".wins").text("wins: " + wins);
+          }
     };
-  
