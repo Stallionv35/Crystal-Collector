@@ -1,4 +1,4 @@
-//Crystal Values
+    //Crystal Values
     var crystals = {
         diamond:
         {
@@ -34,10 +34,13 @@
     var wins = 0;
     var losses = 0;
 
-    // Crystal Point Function
+    // Crystal Points
     var crystalRandom = function(min, max) {
         return Math.floor(Math.random() * (max - min + 1)) + min;
     };
+
+    //Crystal Point Reference
+    console.log(crystalRandom)
 
     // Grabbing random crystal then adding value
     crystals.diamond.value = crystalRandom(1,8);
