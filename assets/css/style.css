@@ -32,3 +32,45 @@ body {
     color: whitesmoke;
     font-family: 'Caveat Brush', cursive;
 }
+
+/*
+*! (Score / Win / Loss)
+*/
+
+.detail-interface {
+    text-align: center;
+    border: 3px solid white;
+    margin-top: 5px;
+    color: whitesmoke;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 20px;
+}
+
+/*
+*! (Crystal Selector)
+*/
+
+.crystal-selector {
+    text-align: center;
+    border: 3px solid white;
+    margin-top: 5px;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: 'Caveat Brush', cursive;
+}
+.diamond {
+    width: 100px;
+    height: 100px;
+}
+.ruby {
+    width: 100px;
+    height: 100px;
+}
+.sapphire {
+    width: 100px;
+    height: 100px;
+}
+.emerald {
+    width: 100px;
+    height: 100px;
+}
