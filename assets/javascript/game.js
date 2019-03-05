@@ -39,9 +39,6 @@
         return Math.floor(Math.random() * (max - min + 1)) + min;
     };
 
-    //Crystal Point Reference
-    console.log(crystalRandom)
-
     // Grabbing random crystal then adding value
     crystals.diamond.value = crystalRandom(1,8);
     $('.diamond').click(function(){
