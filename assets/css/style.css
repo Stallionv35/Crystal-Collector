@@ -1,0 +1,11 @@
+/*
+*! Crystal Collector Title
+*/
+.titlediv {
+    text-align: center;
+    border: 3px solid black;
+    
+}
+.gametitle {
+    font-family: 'Caveat Brush', cursive;
+}
